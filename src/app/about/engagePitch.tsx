@@ -1,5 +1,6 @@
 import LandingHeader from "@/app/about/landingHeader"
 import PitchContainer from "@/components/containers/landing/pitchContainer"
+import ImageWrapper from "@/components/library/imageWrapper"
 import Image from "next/image"
 
 export default function EngagePitch() {
@@ -8,21 +9,21 @@ export default function EngagePitch() {
       {/* HEADING */}
       <LandingHeader>ENGAGE WITH PEOPLE WHO CARE</LandingHeader>
       {/* IMAGE */}
-      <div className="w-full h-auto p-4 md:p-6 lg:p-8 bg-gradient-to-b from-neutral-50 to-transparent ">
-        <Image
-          src="/images/landing/engagement_desktop.svg" // Replace with your image path
-          alt="Descriptive Alt Text"
-          layout="responsive"
-          width={16} // Aspect ratio width
-          height={9} // Aspect ratio height
+      <div className="p-4 md:p-6 lg:p-8 bg-gradient-to-b from-neutral-50 to-transparent ">
+        <ImageWrapper
+          src="/images/landing/engagement_desktop.png"
+          alt="engage_pitch"
+          width={1411}
+          height={1533}
+          blurDataURL="/images/landing/fallback_desktop.png"
           className=" hidden md:block"
         />
         <Image
-          src="/images/landing/engagement_mobile.svg" // Replace with your image path
-          alt="Descriptive Alt Text"
-          layout="responsive"
-          width={16} // Aspect ratio width
-          height={9} // Aspect ratio height
+          src="/images/landing/engagement_mobile.png"
+          alt="engage_pitch"
+          width={422}
+          height={749}
+          blurDataURL="/images/landing/fallback_mobile.png"
           className=" block md:hidden"
         />
       </div>
