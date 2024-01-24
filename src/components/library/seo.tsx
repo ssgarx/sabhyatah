@@ -1,5 +1,6 @@
 import Head from "next/head"
 import React from "react"
+
 interface SeoProps {
   title?: string
   description?: string
