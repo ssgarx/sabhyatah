@@ -2,7 +2,6 @@ import LandingHeader from "@/app/about/landingHeader"
 import PitchContainer from "@/components/containers/landing/pitchContainer"
 import ImageWrapper from "@/components/library/imageWrapper"
 import Image from "next/image"
-
 export default function EngagePitch() {
   return (
     <PitchContainer>
