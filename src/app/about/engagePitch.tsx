@@ -4,6 +4,7 @@ import ImageWrapper from "@/components/library/imageWrapper"
 import Image from "next/image"
 
 export default function EngagePitch() {
+
   return (
     <PitchContainer>
       {/* HEADING */}
