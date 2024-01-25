@@ -9,7 +9,7 @@ export default function EngagePitch() {
       {/* HEADING */}
       <LandingHeader>ENGAGE WITH PEOPLE WHO CARE</LandingHeader>
       {/* IMAGE */}
-      <div className="p-4 md:p-6 lg:p-8 bg-gradient-to-b from-neutral-50 to-transparent ">
+      <div className="p-4 md:p-6 lg:p-8 border-2 border-zinc-100 rounded-md ">
         <ImageWrapper
           src="/images/landing/engagement_desktop.png"
           alt="engage_pitch"
